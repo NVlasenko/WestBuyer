@@ -83,7 +83,7 @@
     padding-top: 400px;
     padding-bottom: 88px;
     color: #000;
-    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    text-shadow: 1px 1px 2px rgb(28, 23, 23), 0 0 1em rgb(46, 46, 53), 0 0 0.2em rgb(46, 46, 58);
     @include onTablet {
       font-size: 64px;
       padding-bottom: 130px;
@@ -91,9 +91,9 @@
     }
     
     @include onDesktop {
-      padding-top: 440px;
+      padding-top: 500px;
       font-size: 95px;
-      padding-bottom: 200px;
+      padding-bottom: 250px;
     }
   }
 }
